@@ -1,0 +1,151 @@
+.icon {
+    width: 150px;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(207, 236, 244, 1);
+    align-items:center;
+    padding: 20vh;
+    padding-top: 1vh;
+    padding-bottom: 0;
+    display: flex;
+}
+
+li {
+    font-size: large;
+
+}
+img{
+    width: 20px;
+}
+
+.options {
+    width: 40vh;
+    position: absolute;
+    background-color: #fff;
+      z-index: 1;
+    .option {
+
+        padding: 7px;
+        padding-bottom: 1%;
+
+        h3 {
+            font-size: large;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 14px;
+        }
+          img{
+            position: absolute;
+            right: 10%;
+            width: 15px;
+            margin-top: 15px;
+            
+          }
+        &:hover {
+            background-color: #f6f6f6;
+        }
+    }
+
+}
+
+.container {
+    display: flex;
+    gap: 10vh;
+    margin-left: 10vh;
+    align-items: center;
+}
+
+.buttons {
+    position: absolute;
+    right: 10%;
+    display: flex;
+    gap: 5vh;
+    button {
+        border: none;
+        padding: 5px;
+    }
+    .login{
+         background: none;
+         width: 10vh;
+         border: solid 2px;
+         border-radius: 5px;
+    }
+    .sign{
+        background-color: #0072FF;
+        width: 20vh;
+        border: solid 2px #0072FF;
+        border-radius: 5px;
+        color: #fff;
+    }
+}
+.bar {
+    display: none;
+}
+input{
+    width: 40vh;
+    height: 5vh;
+    margin: 2vh;
+    padding-left: 5%;
+}
+.setebar{
+    display: none;
+}
+@media only screen and (max-width: 1180px) {
+    .icon{
+        width: 15vh;
+        margin-left: -10vh;
+    }
+   .setebar{
+    display: block;
+    width: 30vh;
+    height: 30vh;
+    background-color: #fff;
+    margin-top: 5%;
+    position: absolute;
+    z-index: 2;
+    padding: 0;
+    right: 10%;
+    border-radius: 5px;
+      li{
+        img{
+            position: absolute;
+            right: 10%;
+            
+        }
+           align-items: center;
+           padding-top: 2vh;
+        width: 100%;
+        height: 10vh;
+        padding-left: 10%;
+           list-style-type: none;
+           &:hover{
+       background-color: #f3f1f1;
+           }
+      }
+   }
+    .container{
+      display: none;
+    }
+    .bar{
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 8%;
+        top: 3%;
+        img{
+            width: 5vh;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+ .icon{
+    margin-left: -15vh;
+ }
+}

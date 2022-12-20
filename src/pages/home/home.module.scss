@@ -1,0 +1,204 @@
+.home_body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(207, 236, 244, 1);
+
+
+}
+
+.text {
+    margin-top: 18%;
+    position: absolute;
+    margin-left: 10%;
+
+    h1 {
+        font-size: 7vh;
+        font-weight: bolder;
+    }
+
+    h4 {
+        color: #707071;
+    }
+
+    .join {
+        border: none;
+        padding: 10px;
+        width: 20vh;
+        border-radius: 5px;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0072FF;
+        margin-top: 3vh;
+        font-size: large;
+    }
+}
+
+.man {
+    width: 20vh;
+    height: 90vh;
+    margin-right: 5%;
+    float: right;
+    background-image: url("https://s3-alpha-sig.figma.com/img/90ae/a157/c254c31585574faba7d95865bef28070?Expires=1672617600&Signature=jF5WW0YSI9Pxxo0tcj-XitV24hrNbj5WRk4VX9zQN~YhCwpCfqlZYacAlFRxaFnH1eO4uDJuJYv0w~yDcJobjXePTipD2jDKp4l~VEhfLhoaqVbekvcqIovGi7xFKr~9yKPoZUVRnAlDyXKDpwkvYo2MJK8Itjyu-NpbKj6FIlJEMdtoC77bZNh~cVa7lvGq1ioPJlVI0J11UiwS~amV-9cwIE0~1A-l6nFhlf8KtiVBgGhVwFaRrvYwTOLBCFIW0s1Xvjm4NGbSqHDWC~6adtvAq8yQ5iAHDemE2QLwLg2Q8UOdAUdYfkJRwqL23HS~sw8uS7uRwVwNQ7rloouFpg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-size: cover;
+    width: 50%;
+}
+
+
+.inform {
+
+
+    width: 100%;
+    height: 50vh;
+    background: url(https://i.ibb.co/r38yDDk/img.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: start;
+    padding-left: 20vh;
+    padding-top: 20vh;
+    background-color: rgba(37, 36, 36, 0.7);
+
+    h2 {
+        font-weight: bold;
+    }
+
+    p {
+        font-weight: bold;
+    }
+
+    .button {
+        border: none;
+        padding: 5px;
+        float: right;
+      box-shadow: 0px 0px 20vh  #f4eded;
+        width: 20vh;
+        border-radius: 5px;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0072FF;
+        margin-top: 3vh;
+        margin-right: 20vh;
+        font-size: large;
+    }
+}
+
+
+
+
+.text_info {
+    width: 100%;
+    height: 40vh;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    background-color: #fff;
+
+    .into {
+        padding: 40vh;
+        padding-top: 2%;
+        background-color: #f5f5f5;
+
+        h3 {
+            font-weight: 400;
+            color: #605e5e;
+            font-size: large;
+
+        }
+        h5 , p{
+            text-align: end;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1130px) {
+    .home_body{
+        width: 100%;
+    }
+    .text_info{
+        width: 100%;
+        height: 50vh;
+        padding: 0%;
+        display: none;
+    }
+  .into{
+    padding:0;
+    width: 30vh;
+    h3{
+        
+        font-size: large;
+        width: 60vh;
+    }
+    .man{
+        width: 40vh;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+    .inform{
+        text-align: start;
+        padding-left: 10%;
+        h2{
+            text-align: start;
+            font-size: large;
+            
+        }
+        .button{
+            width: 20vh;
+            position: absolute;
+
+        }
+    }
+    .home_body{
+        width: 100%;
+        height: 60vh;
+    background-color: rgba(207, 236, 244, 1);
+    background: linear-gradient(173deg , rgba(207, 236, 244, 1) , #fff);
+    }
+    .text_info{
+        height: 40vh;
+        // padding: 0%;
+        .into{
+            padding: 0%;
+            height: 40vh;
+            
+            h3{
+                width: 40vh;
+            }
+            h5 , p{
+                font-size: large;
+                 
+            }
+        }
+    }
+    .text{
+        
+        h1{
+            font-size: 4vh;
+
+        }
+
+        h4{
+            font-size: small;
+            margin-bottom: 30vh;
+        }
+        text-align: center;
+    }
+    .man{
+        width: 40vh;
+        height: 50vh;
+        margin-top: 30vh;
+        align-items: center;
+    background-image: url("https://s3-alpha-sig.figma.com/img/90ae/a157/c254c31585574faba7d95865bef28070?Expires=1672617600&Signature=jF5WW0YSI9Pxxo0tcj-XitV24hrNbj5WRk4VX9zQN~YhCwpCfqlZYacAlFRxaFnH1eO4uDJuJYv0w~yDcJobjXePTipD2jDKp4l~VEhfLhoaqVbekvcqIovGi7xFKr~9yKPoZUVRnAlDyXKDpwkvYo2MJK8Itjyu-NpbKj6FIlJEMdtoC77bZNh~cVa7lvGq1ioPJlVI0J11UiwS~amV-9cwIE0~1A-l6nFhlf8KtiVBgGhVwFaRrvYwTOLBCFIW0s1Xvjm4NGbSqHDWC~6adtvAq8yQ5iAHDemE2QLwLg2Q8UOdAUdYfkJRwqL23HS~sw8uS7uRwVwNQ7rloouFpg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+         border-bottom: solid 20vh lightblue ,  gold  ;
+        
+        text-align: center;
+    }
+   
+    .join{
+        text-align: center;
+        // margin: auto;
+        left: 25%;
+        position: absolute;
+    }
+}
